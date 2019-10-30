@@ -111,12 +111,12 @@ def transaction_txt(filename, trans_summary):
 
 def update_json(ordered_shows, amount_of_tickets):
     with open(SHOWS_FILE) as shows:
-        concerts = json.load(shows)
-    for idx, value in enumerate(concerts):
+        plays = json.load(shows)
+    for idx, value in enumerate(plays):
         if ordered_shows == value.get("artist"):
-            concerts[idx]["tickets"] = abs(amount_of_tickets - concerts[idx]["tickets"])
+            plays[idx]["tickets"] = abs(amount_of_tickets - plays[idx]["tickets"])
             with open(SHOWS_FILE, "w") as shows:
-                json.dump(concerts, shows)
+                json.dump(plays, shows)
 
 
 def main():
@@ -139,9 +139,6 @@ def main():
         name, ordered_shows, code, amount_of_tickets, price, tax, timestamp
     )
     transaction_txt(TRANSACTIONS_FILE, trans_summary)
-    giant_ticket = big_ticket(name, ordered_shows, code, tickets, price, tax, timestamp)
-    print(giant_ticket)
-    ticket_txt(TICKET_FILE, giant_ticket)
 
 
 if __name__ == "__main__":
