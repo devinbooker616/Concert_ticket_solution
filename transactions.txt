@@ -1,0 +1,6 @@
+name, show, code, tickets, price, tax, timestamp
+Sean Anthony, Phoebe Bridgers, pheb, 2, $30.00, $2.10, 2019-10-29 18:08:31.912470
+D�mi Anthony, Big Theif, jbbt, 4, $80.00, $5.60, 2019-10-29 18:09:50.089703
+Devin, Big Theif, jbbt, 4, $80.00, $5.60, 2019-10-30 13:44:58.546705
+Devin, Pedro The Lion, ptln, 3, $30.00, $2.10, 2019-10-30 14:16:10.116797
+Devin, Pedro The Lion, ptln, 4, $40.00, $2.80, 2019-10-30 15:01:30.019107Devin, Pedro The Lion, ptln, 4, $40.00, $2.80, 2019-10-30 15:02:07.552966Devin, Pedro The Lion, ptln, 4, $40.00, $2.80, 2019-10-30 15:02:55.463572Devin, Pedro The Lion, ptln, 4, $40.00, $2.80, 2019-10-30 15:07:29.680000Devin, Pedro The Lion, ptln, 4, $40.00, $2.80, 2019-10-30 15:16:00.926865Devin, Pedro The Lion, ptln, 4, $40.00, $2.80, 2019-10-30 15:16:54.226696Devin, Pedro The Lion, ptln, 4, $40.00, $2.80, 2019-10-30 15:17:28.815952Devin, Big Theif, jbbt, 4, $80.00, $5.60, 2019-10-30 15:22:56.933771Devin, Phoebe Bridgers, pheb, 2, $30.00, $2.10, 2019-10-30 15:23:24.591269Devin, Big Theif, jbbt, 2, $40.00, $2.80, 2019-10-30 15:44:39.133657Devin, Big Theif, jbbt, 1, $20.00, $1.40, 2019-10-30 15:45:22.106646
