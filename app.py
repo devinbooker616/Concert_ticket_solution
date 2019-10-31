@@ -69,9 +69,6 @@ def valid_tickets(all_shows, tickets):
     print("-----------")
     print(f"That Show has {tickets} tickets available")
     print("-----------")
-    if tickets == 0:
-        print("Sorry this show is sold out pick another one!")
-        print("-----------")
     while True:
         amount_of_tickets = int(
             input(
