@@ -30,18 +30,16 @@ def get_show(all_shows):
             """who's show would you like to go to
         >>> """
         )
+        if ordered_show not in show_list:
+            print("-----------")
+            print(f"Sorry we do not have {ordered_show}")
+            print("-----------")
+            continue
         for shows in all_shows:
             if ordered_show == shows.get("artist"):
                 if shows.get("tickets") > 0:
-                    if ordered_show in show_list:
-                        return ordered_show
-                        break
-
-                    else:
-                        print("-----------")
-                        print(f"Sorry we do not have {ordered_show}")
-                        print("-----------")
-                        continue
+                    return ordered_show
+                    break
                 else:
                     print("-----------")
                     print("Sorry that show is sold out pick another!")
